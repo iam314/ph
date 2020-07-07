@@ -1,0 +1,379 @@
+ul.projects  {
+  display: block;
+  margin-top: 90px;
+  margin-bottom: 120px;
+}
+
+ul.projects li {
+  margin-bottom: 24px;
+}
+
+.projects li {
+	position: relative;
+	overflow: hidden;
+}
+
+/* Flexbox is used for centering the heading */
+.projects li a div {
+	position: absolute;
+	left: 24px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.85);
+	display: flex;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+}
+
+.projects li a:hover div, .projects li a:focus div  {
+	opacity: 1;
+}
+
+.projects li a div h2 {
+  font-family: 'HKGrotesk-Bold', 'sans-serif';
+  font-size: 18px;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  padding: 24px 6px 0 24px;
+  text-rendering: optimizeLegibility;
+}
+
+.projects li a div p {
+  font-family: 'HKGrotesk-Light', 'sans-serif';
+	color: #1a1a1a;
+	font-size: 14px;
+  padding: 24px 0px;
+}
+
+li.stray {
+  margin-left: 25%;
+}
+
+//INNER PROJECT VIEW
+
+li.innerstray {
+  margin-left: 25%;
+}
+
+.description {
+  max-width: 550px;
+  margin-top: 120px;
+  h2 {
+    display: inline-block;
+  }
+  p.tag {
+    display: inline-block;
+    margin-bottom: 24px;
+    font-size: 14px;
+    padding-left: 8px;
+  }
+}
+
+.photos {
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+ul.photos li {
+  margin-bottom: 24px;
+}
+
+//Vimeo Video
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+//QUOTES SELFIE
+.quotes {
+  // padding-top: 10px;
+  text-indent: -6px;
+}
+//Image Slider
+ul.photos {
+  width: 100%;
+}
+.slider {
+  position: relative;
+  max-width: 1272px;
+  height: 848px;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9,.slide10,.slide11,.slide12,.slide13,.slide14 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_1.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade 18s infinite;
+-webkit-animation:fade 18s infinite;
+
+}
+.slide2 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_1_1.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade2 18s infinite;
+-webkit-animation:fade2 18s infinite;
+}
+
+.slide3 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_2_2.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade 18s infinite;
+-webkit-animation:fade 18s infinite;
+
+}
+.slide4 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_2.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade2 18s infinite;
+-webkit-animation:fade2 18s infinite;
+}
+
+.slide5 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_3.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade 18s infinite;
+-webkit-animation:fade 18s infinite;
+
+}
+.slide6 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_3_3.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade2 18s infinite;
+-webkit-animation:fade2 18s infinite;
+}
+.slide7 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_4_4.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade 18s infinite;
+-webkit-animation:fade 18s infinite;
+
+}
+.slide8 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_4.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade2 18s infinite;
+-webkit-animation:fade2 18s infinite;
+}
+.slide9 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_5.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade 18s infinite;
+-webkit-animation:fade 18s infinite;
+
+}
+.slide10 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_5_5.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade2 18s infinite;
+-webkit-animation:fade2 18s infinite;
+}
+.slide11 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_6_6.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade 18s infinite;
+-webkit-animation:fade 18s infinite;
+
+}
+.slide12 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_6.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade2 18s infinite;
+-webkit-animation:fade2 18s infinite;
+}
+.slide13 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_7.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade 18s infinite;
+-webkit-animation:fade 18s infinite;
+
+}
+.slide14 {
+  background: url(../img/projects/The-Strange-Other/The-Strange-Other_7_7.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade2 18s infinite;
+-webkit-animation:fade2 18s infinite;
+}
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  // 33.333% { opacity: 0}
+  50% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  // 33.333% { opacity: 1}
+  50% { opacity: 1 }
+  100% { opacity: 0}
+}
+
+@media (max-width: 1660px) {
+  .slider {
+    height: 780px;
+  }
+}
+@media (max-width: 1217px) {
+  .slider {
+    height: 647px;
+  }
+}
+@media (max-width: 1016px) {
+  .slider {
+    height: 500px;
+  }
+}
+@media (max-width: 782px) {
+  .slider {
+    height: 490px;
+  }
+}
+@media (max-width: 755px) {
+  .slider {
+    height: 470px;
+  }
+}
+@media (max-width: 715px) {
+  .slider {
+    height: 450px;
+  }
+}
+@media (max-width: 715px) {
+  .slider {
+    height: 440px;
+  }
+}
+@media screen and (max-width: 667px) {
+  .quotes {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-indent: 0;
+
+  }
+  li.stray {
+    margin-left: 0;
+  }
+  .slider {
+    height: 410px;
+  }
+  .hide-photo {
+    display: none;
+  }
+}
+@media (max-width: 630px) {
+  .slider {
+    height: 390px;
+  }
+}
+@media (max-width: 600px) {
+  .slider {
+    height: 370px;
+  }
+}
+@media (max-width: 570px) {
+  .slider {
+    height: 350px;
+  }
+}
+@media (max-width: 550px) {
+  .slider {
+    height: 330px;
+  }
+}
+@media (max-width: 530px) {
+  .slider {
+    height: 320px;
+  }
+}
+@media (max-width: 510px) {
+  .slider {
+    height: 310px;
+  }
+}
+@media (max-width: 495px) {
+  .slider {
+    height: 300px;
+  }
+}
+@media (max-width: 475px) {
+  .slider {
+    height: 285px;
+  }
+}
+@media (max-width: 460px) {
+  .slider {
+    height: 275px;
+  }
+}
+@media (max-width: 445px) {
+  .slider {
+    height: 265px;
+  }
+}
+@media (max-width: 430px) {
+  .slider {
+    height: 255px;
+  }
+}
+@media (max-width: 420px) {
+  .slider {
+    height: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .slider {
+    height: 235px;
+  }
+}
+@media (max-width: 380px) {
+  .slider {
+    height: 223px;
+  }
+}
+@media (max-width: 365px) {
+  .slider {
+    height: 210px;
+  }
+}
+@media screen and (max-width: 352px) {
+  ul.photos li {
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+ul.projects li {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 350px) {
+  .slider {
+    height: 200px;
+  }
+}
+@media (max-width: 340px) {
+  .slider {
+    height: 195px;
+  }
+}
+
+@media (max-width: 300px) {
+  .slider {
+    height: 165px;
+  }
+}
