@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32137",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/.gitattributes",
+		"oF": 0
+		},
 	"/about.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2088,10 +2096,10 @@
 "projectAttributes": {
 	"creationDate": 601912588.86574101,
 	"displayValue": "ph",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 615809717.19297004
+	"lastBuiltDate": 615810354.15813005
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
