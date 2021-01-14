@@ -691,6 +691,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/projects/Black-Box/h14a.jpg": {
+		"ft": 16384,
+		"iS": 868954,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/docs/img/projects/Black-Box/h14a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/projects/Black-Box/h15.jpg": {
 		"ft": 16384,
 		"iS": 191051,
@@ -1035,6 +1048,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/docs/img/projects/Black-Box/v22.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/projects/Black-Box/v22a.jpg": {
+		"ft": 16384,
+		"iS": 1209368,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/docs/img/projects/Black-Box/v22a.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
