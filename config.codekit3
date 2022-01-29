@@ -766,6 +766,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/projects\/Black-Box\/h12-aa.jpg" : {
+      "ft" : 16384,
+      "iS" : 235352,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/Black-Box\/h12-aa.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/Black-Box\/h12-aaaa.jpg" : {
+      "ft" : 16384,
+      "iS" : 191352,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/Black-Box\/h12-aaaa.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/projects\/Black-Box\/h12.jpg" : {
       "ft" : 16384,
       "iS" : 265137,
@@ -1175,6 +1201,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/Black-Box\/v22a.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/Black-Box\/v22aa.jpg" : {
+      "ft" : 16384,
+      "iS" : 127508,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/Black-Box\/v22aa.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
