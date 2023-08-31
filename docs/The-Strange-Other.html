@@ -9,6 +9,16 @@
 	<meta name="author" content="Lyudmil Dachev">
 	<!-- Le styles -->
 	<link href="css/main.css" rel="stylesheet">
+	<script>
+		document.addEventListener("DOMContentLoaded", function() { 
+  // get the the span element
+  const yrSpan = document.querySelector('.year');
+  // get the current year
+  const currentYr = new Date().getFullYear();
+  // set the year span element's text to the current year
+  yrSpan.textContent = currentYr;
+});
+	</script>
 </head>
 
 <body>
@@ -170,7 +180,7 @@ The Strange Other is the failed dialogue between refugees and Bulgarians, forced
 		</div>
 		<div class="row">
 			<div class="col col--12-of-12">
-			<p class="copyright">© 2021 Phelia Barouh</p>
+			<p class="copyright">© <span class="year">2025</span> Phelia Barouh</p>
 			</div>
 		</div>
 </footer>

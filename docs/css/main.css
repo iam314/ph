@@ -482,9 +482,7 @@ ul.photos {
   li.stray {
     margin-left: 0; }
   .slider {
-    height: 410px; }
-  .hide-photo {
-    display: none; } }
+    height: 410px; } }
 
 @media (max-width: 630px) {
   .slider {
